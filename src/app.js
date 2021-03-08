@@ -32,5 +32,5 @@ function onLoad() {
   let RanWhat = Math.floor(Math.random() * what.length);
   let RanWhen = Math.floor(Math.random() * when.length);
 
-  let frase = RanWho + RanAction + RanWhat + RanWhen;
+  console.log(RanWho, RanAction, RanWhat, RanWhen);
 }
