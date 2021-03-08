@@ -26,4 +26,9 @@ function onLoad() {
     "during my lunch",
     "while I was praying"
   ];
+
+  let RanWho = Math.floor(Math.random() * who.length);
+  let RanAction = Math.floor(Math.random() * action.length);
+  let RanWhat = Math.floor(Math.random() * what.length);
+  let RanWhen = Math.floor(Math.random() * when.length);
 }
