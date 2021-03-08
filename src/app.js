@@ -7,6 +7,9 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
+  let funExcuse = onLoad();
+
+  document.getElementById("excuse").innerHTML = funExcuse;
 };
 
 function onLoad() {
