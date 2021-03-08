@@ -7,7 +7,9 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
+};
 
+function onLoad() {
   let who = ["The dog", "My grandma", "His turtle", "My bird"];
 
   let action = ["ate", "peed", "crushed", "broke"];
@@ -21,6 +23,4 @@ window.onload = function() {
     "during my lunch",
     "while I was praying"
   ];
-
-  console.log(who);
-};
+}
