@@ -7,9 +7,10 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  let funExcuse = onLoad();
 
-  document.getElementById("excuse").innerHTML = funExcuse;
+  let excuseF = onLoad();
+
+  document.getElementById("excuseF").innerHTML = excuseF;
 };
 
 function onLoad() {
@@ -35,5 +36,9 @@ function onLoad() {
 
   let RanWhen = when[Math.floor(Math.random() * when.length)];
 
-  console.log(RanWho, RanAction, RanWhat, RanWhen);
+  let totalFrase = RanWho + " " + RanAction + " " + RanWhat + " " + RanWhen;
+
+  console.log(totalFrase);
+
+  //console.log(RanWho, RanAction, RanWhat, RanWhen);
 }
