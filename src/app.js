@@ -10,6 +10,10 @@ window.onload = function() {
 
   let excuseF = onLoad();
 
+  //let ejemplo = "Karla Hola Mundo";
+
+  //document.getElementById("excuseF").innerHTML = ejemplo;
+
   document.getElementById("excuseF").innerHTML = excuseF;
 };
 
